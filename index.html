@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/307d07dcdf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <nav>
+        <img src="logo1.png" class="logo">
+        <ul>
+
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Software Engineer</p>
+        <h1>Hi, I'm <span>Pratik Mondal </span> <br>From Kolkata</h1>
+      </div>
+      </ul>
+    </div>
+  </div>
+<!---------------------------about--------------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>
+            Final year student with strong academic background and extensive experience in problem-solving and communication.
+            Possesses excellent communication, interpersonal, and organizational skills, and is adept at working both independently
+            and in team settings. Seeking to leverage my knowledge and experience to contribute to a successful organization.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+              <p class="tab-links"  onclick="opentab('education')">Education</p>
+               
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br> Web app Development</li>
+                <li><span>Manual Testing</span><br>Software Testing</li>
+
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022</span><br>Web Development Internship at Exposys data labs</li>
+                 
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span><br>B tech From NSHM Durgapur</li>
+                <li><span>2019</span><br>Intermediate From Kamrabad Uchcha Vidyalaya</li>
+                <li><span>2017</span><br>Matriculation From Kamrabad Uchcha Vidyalaya</li>
+
+              </ul>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+   
+  <!-- ------------services--------------->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sequi provident error sapiente nisi ratione totam! Ad ipsum
+          voluptate nisi veniam dolore. Numquam laborum quae deleniti repellat maiores ea tempore.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-crop"></i>
+          <h2>UI/UX design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sequi provident error sapiente nisi ratione totam! Ad ipsum
+          voluptate nisi veniam dolore. Numquam laborum quae deleniti repellat maiores ea tempore.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-uncharted"></i>
+          <h2>Manual Testing</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sequi provident error sapiente nisi ratione totam! Ad ipsum
+          voluptate nisi veniam dolore. Numquam laborum quae deleniti repellat maiores ea tempore.</p>
+          <a href="#">Learn More</a>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------------------portfolio------------------------->
+ 
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="work-1.png">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you to the talented people around the world.
+              Download it from play store.
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work-2.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>The app connects you to the talented people around the world.
+              Download it from play store.
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work-3.png">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>The app connects you to the talented people around the world.
+              Download it from play store.
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="btn">See More</a>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
